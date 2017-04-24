@@ -1,0 +1,21 @@
+{
+	"data": [{
+		"coords": [-2, 9]
+	}, {
+		"coords": [-4, 4.5]
+	}, {
+		"coords": [2, 9.9]
+	}, {
+		"coords": [10, -2]
+	}, {
+		"coords": [0.8, 7.4]
+	}, {
+		"coords": [3, 4.9]
+	}, {
+		"coords": [0.2, -3]
+	}],
+	"clustersNumber": 3,
+	"iterations": 100,
+	"calculator": "Euclidean",
+	"instances": 10
+}
