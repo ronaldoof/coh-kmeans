@@ -134,7 +134,7 @@ public class COHKMeans extends CopKMeans {
 
 			} else if (pointA.getCluster() == null && pointB.getCluster() != null) {
 				HCluster c = null;
-				if (canAddToCluster(pointB.getCluster(), pointB, cannotLink)) {
+				if (canAddToCluster(pointB.getCluster(), pointA, cannotLink)) {
 					c = (HCluster) pointB.getCluster();
 				} else {
 					c = new HCluster(Sequence.getSequence().next(), pointA);
